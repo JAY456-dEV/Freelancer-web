@@ -1,0 +1,1318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-page {
+    background-color: #E0EAF3;
+    max-width: 1920px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.nav-name ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.nav-name ul a {
+    font-size: 1.1rem;
+    font-weight: 620;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: #FF734F;
+    }
+}
+
+.btn {
+    margin: 0 0 6px 0;
+}
+
+.btn a {
+    text-decoration: none;
+    margin: 0 0 0 4.5rem;
+    background-color: #F86642;
+    font-size: 0.73rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    padding: 11px 28px;
+    border-radius: 8px;
+
+}
+
+.navbar .logo img {
+    width: 50px;
+    margin: 0 4.5rem 0 0;
+}
+
+.heading {
+    margin: 20px;
+    padding: 0 130px;
+    text-align: center
+}
+
+.heading h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+.heading span {
+    color: #FF734F;
+}
+
+.list-check {
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    gap: 3rem;
+}
+
+.list-check .list-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 1rem;
+    font-weight: 620;
+}
+
+.fa-circle-check {
+    font-size: 1.4rem;
+    color: #FF734F;
+}
+
+.start-btn {
+    text-align: center;
+    margin: 13px 0;
+}
+
+.people-img img {
+    width: 770px;
+    margin: -4px 360px;
+
+}
+
+/* =========banner raise section========================= */
+
+
+.main-banner-raise {
+    width: 100%;
+    height: 400px;
+    background-color: #292526;
+    padding: 6.7rem 10rem;
+}
+
+.banner-raise {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+
+    & h2 {
+        color: white;
+    }
+}
+
+.banner-raise span {
+    color: #FF734F;
+}
+
+.main-banner-raise .banner-logo img {
+    width: 290px;
+}
+
+
+
+.banner-logo {
+    margin-top: 3rem;
+    position: relative;
+}
+
+/* .banner-logo::after {
+    position: absolute;
+    top: 23px;
+    left: 310px;
+    content: '';
+    height: 70px;
+    border-right: 3px solid #F86642;
+} */
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+
+
+/* ==================second page============ */
+
+.second-page {
+    background-color: #F6F6F6;
+
+}
+
+.container {
+    max-width: 1200px;
+    height: 1440px;
+    margin: auto;
+}
+
+.first-para {
+    padding: 6rem 10rem 0 10rem;
+}
+
+.first-para h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 2rem 0;
+}
+
+.first-para p {
+    text-align: center;
+    font-weight: 520;
+    font-size: 0.9rem;
+}
+
+.first-para span {
+    color: #FF734F;
+}
+
+
+.container .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 2rem 0 0 0;
+}
+
+.img-section img {
+    width: 100px;
+    margin: 0.8rem 0;
+}
+
+.img-section h5 {
+    font-size: 1.1rem;
+}
+
+.img-section,
+.img-h5 h5 {
+    margin: 1.1rem 0;
+    text-align: center;
+
+    & p {
+        text-align: center;
+        margin: 1.1rem 0;
+        font-size: 1rem;
+        font-weight: 420;
+    }
+}
+
+
+.first-section .section-3 {
+    margin-bottom: 4.6rem;
+}
+
+
+/* =====================work-section================/ */
+
+.work-section .heading-1 {
+    padding: 3rem 4.5rem;
+
+    & p {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+}
+
+
+
+/* ====================section--services================== */
+
+/* ============first-services================= */
+
+.first-services {
+    text-align: center;
+}
+
+.first-services img {
+    width: 100px;
+}
+
+.first-services .round-number {
+    background-color: #F86642;
+    width: 59px;
+    height: 59px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 0.4rem 0.6rem;
+    position: relative;
+}
+
+.round-number span {
+    color: white;
+    font-weight: 700;
+    font-size: 2.3rem;
+    position: absolute;
+    left: 0.4rem;
+    right: 1rem;
+}
+
+.first-services .para-1 {
+    color: #F86642;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.first-services .para-2 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+/* ===========second--section=========== */
+
+
+.second-service {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.second-service img {
+    width: 115px;
+}
+
+/* ===============third services================= */
+
+.third-service img {
+    width: 145px;
+}
+
+
+
+/* ===============seciton- platform============== */
+
+.section-platform .container {
+    width: auto;
+    height: 2700px;
+
+}
+
+.section-platform {
+    background-color: #292526;
+}
+
+.heading-platform {
+    padding: 8rem 8rem 5rem 8rem;
+}
+
+.heading-platform p {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    & span {
+        color: #F86642;
+    }
+}
+
+/* =========platform-1============== */
+
+.bgcolor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.platform-1 .bgcolor {
+    background-color: #91CFD2;
+    width: 1100px;
+    height: 565px;
+    margin: auto;
+}
+
+.section-platform-2 .bgcolor-1 {
+    width: 550px;
+    height: 363px;
+    margin-left: 1.3rem;
+    background-color: #231F20;
+    box-shadow: 5px 5px 25px 15px #B3B3A9;
+    border-radius: 15px;
+}
+
+.bgcolor .platform-img img {
+    width: 528px;
+    height: 565px;
+    margin-top: 0.2rem;
+}
+
+.bgcolor .bgcolor-1 {
+    color: white;
+    padding: 4.5rem 2rem;
+
+    & h3 {
+        margin: 2rem;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+    }
+
+    & a {
+        margin-left: 2rem;
+        text-transform: uppercase;
+        border: 2px solid #F86642;
+        padding: 1rem;
+        width: 250px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.bgcolor-1 .btn a {
+    margin-left: 2rem;
+}
+
+/* =================.section-platform-3====================== */
+
+.seciton-platform-3 img {
+    width: 1100px;
+    height: 565px;
+    margin: 4rem 3.1rem;
+}
+
+.section-platform-4 img {
+    width: 1100px;
+    margin: 0 3.1rem 2.5rem 3.1rem;
+}
+
+/* =============profile-end-section============== */
+
+.para-platform p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 2rem 3rem;
+    text-align: center;
+    position: relative;
+
+    &::before {
+        content: '\f10d';
+        position: absolute;
+        left: 2%;
+        top: -2%;
+        font-size: 5rem;
+        color: #F86642;
+        font-family: "Font Awesome 6 Free";
+    }
+
+    &::after {
+        content: '\f10e';
+        position: absolute;
+        font-family: "Font Awesome 6 Free";
+        font-size: 5rem;
+        right: 9%;
+        color: #F86642;
+    }
+}
+
+.user-platform-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.user-platform img {
+    width: 80px;
+}
+
+.user-platform h4,
+p {
+    &.pera-name {
+        color: #F86642;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.profie-detail p {
+    color: white;
+}
+
+.btn-profile {
+    margin: 4rem 23.4rem;
+
+    &.btn a {
+        padding: 1.3rem 3rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* =============buy section============ */
+
+.section-buy .container {
+    height: auto;
+}
+
+.plan-period .offer p {
+    color: #F86642;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline;
+    float: right;
+}
+
+.offer .offer-1 {
+    margin-right: -1.2rem;
+}
+
+.offer .offer-2 {
+    margin-right: 2.8rem;
+}
+
+.plan-period {
+    margin: 10rem 26rem 6rem 29.1rem;
+}
+
+.plan td {
+    border: 2px solid #F86642;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &:nth-child(1) {
+        background-color: black;
+        color: white;
+        border-color: black;
+    }
+}
+
+.plan table {
+    border-collapse: collapse;
+}
+
+/* ============section-buy=========== */
+
+.section-essential {
+    border: 2px solid #F86642;
+    width: 387px;
+    height: 870px;
+    padding: 4rem 3rem 4rem 3rem;
+    border-radius: 15px;
+}
+
+.buy-title {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    & h5 {
+        font-size: 1.8rem;
+
+    }
+
+    & p {
+        margin-top: 0.8rem;
+        text-transform: capitalize;
+        font-weight: 420;
+    }
+}
+
+.buy-price {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF734F;
+    margin-bottom: 5rem;
+    position: relative;
+
+    & h5 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    & p {
+        margin-top: 0.3rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        border-bottom: 2.5px solid #FF734F;
+        top: 6.5rem;
+        left: 1.80rem;
+        right: 1rem;
+        width: 230px;
+    }
+}
+
+.buy-price-white {
+    &::after {
+        content: '';
+        position: absolute;
+        border-bottom: 2.5px solid #ffffff;
+        top: 6.5rem;
+        left: 1.8rem;
+        right: 1rem;
+        width: 230px;
+    }
+}
+
+.buy-details {
+    margin-bottom: 4rem;
+
+    & h4 {
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+
+    & p {
+        margin: 0.5rem 0 0 2rem;
+        font-weight: 450;
+    }
+
+}
+
+.design-team {
+    margin: 4.5rem 0 3rem 0;
+
+    & h4 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+
+    & p {
+        margin: 1rem 0 0 2rem;
+        font-weight: 500;
+    }
+}
+
+.try-free-btn {
+    border: 3px solid black;
+    padding: 1.6rem;
+    border-radius: 15px;
+}
+
+.try-free-btn a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 4.5rem;
+}
+
+/* ===========pro section============ */
+
+.pro-section {
+    background-color: #FF734F;
+}
+
+.pro-section {
+    color: white;
+}
+
+.buy-price .pro-price {
+    color: #000000;
+}
+
+.pro {
+    border: 3px solid white;
+}
+
+.pro .pro-price-buy {
+
+    color: white;
+}
+
+/* ==============contact us================== */
+
+.contact-us {
+    margin: 10rem;
+}
+
+.border {
+    background-color: #000000;
+    width: 600px;
+    height: 1.5px;
+    margin: auto;
+}
+
+.contact-detail {
+    text-align: center;
+    margin: 1.5rem;
+
+    & h6 {
+        font-size: 1.1rem;
+    }
+
+    & h6 span {
+        color: #F86642;
+    }
+
+    & p {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+
+}
+
+.contact-us-btn a {
+    margin: 0rem 18.5rem;
+    font-size: 1.1rem;
+    padding: 1.2rem 5rem;
+}
+
+/* ===============start-up============== */
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+}
+
+.start-up {
+    margin: 10rem 10rem 8rem 3rem;
+}
+
+.start-heading h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-left: 6.5rem;
+
+    & h2,
+    span {
+        color: #F86642;
+    }
+}
+
+.start-left-detail {
+    margin: 3rem 0 3rem 1rem;
+
+    & h5 {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        color: white;
+        padding: 1.7rem 2rem;
+    }
+}
+
+.start-up-1,
+.start-up-2,
+.start-up-3 {
+    width: 461px;
+    height: 130px;
+    background-color: #000000;
+    border-radius: 35px 35px 35px 0;
+}
+
+.start-up-2 h5 {
+    padding: 2.7rem 2rem;
+}
+
+.start-up-3 h5 {
+    padding: 2.7rem 2rem;
+}
+
+.start-up-4 {
+    background-color: #F86642;
+}
+
+.start-up-4 h5 {
+    padding: 2.7rem 2rem;
+}
+
+.start-up-5 h5 {
+    padding: 1.7rem 2rem;
+}
+
+.start-up-6 h5 {
+    padding: 2.7rem 2rem;
+}
+
+/* =================question part============== */
+
+.question-heading h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    word-spacing: 0.2rem;
+
+    & span {
+        color: #F86642;
+    }
+}
+
+.question-detail-1 {
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.question-detail {
+    position: relative;
+}
+
+.question-detail p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+
+.border-1::after {
+    content: '';
+    position: absolute;
+    top: 2.4rem;
+    background-color: #F86642;
+    width: 1100px;
+    height: 1.5px;
+}
+
+.fa-sort-down {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 3rem;
+    font-size: 3rem;
+    color: #F86642;
+}
+
+/* ==============get-started================== */
+.get-started-1 {
+    margin: 9rem 0 0 0;
+}
+
+.heading-get {
+    text-align: center;
+    margin-top: 2rem;
+
+    & h4 {
+        text-transform: capitalize;
+        font-size: 3.5rem;
+        font-weight: 700;
+        padding: 0 14rem;
+        line-height: 3.8rem;
+        margin-top: 10rem;
+
+    }
+
+    & span {
+        color: #F86642;
+    }
+
+    & p {
+        margin: 2.5rem 0;
+        margin-bottom: 3.5rem;
+        margin-bottom: rem;
+        font-weight: 500;
+    }
+
+}
+
+.get-started-btn a {
+    padding: 1.4rem 5rem;
+    margin: 0 28.5rem;
+    font-size: 1rem;
+}
+
+.person-3-img img {
+    width: 560px;
+    height: 400px;
+    margin: 3rem 18rem 0 18rem;
+}
+
+/* =================footer=================== */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.section-footer {
+    background-color: #1D1D1D;
+    height: 500px;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+}
+
+.left-footer {
+    margin: 10rem 2rem;
+
+    & h2 {
+        text-transform: uppercase;
+        font-size: 3.3rem;
+        margin-bottom: 1.4rem;
+    }
+
+    & span {
+        color: #F86642;
+    }
+}
+
+.mail-icon {
+    display: flex;
+    align-items: center;
+    float: left;
+    gap: 0.3rem;
+}
+
+.mail-icon {
+    margin-right: 2.2rem;
+
+    & i {
+        color: #F86642;
+    }
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: #FF734F;
+    }
+}
+
+.nav-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+/* ============media quiry===================== */
+@media (max-width:1400px) {
+
+    html {
+        font-size: 80%;
+    }
+
+    .heading h1 {
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+
+    .people-img img {
+        width: 650px;
+        margin: -4px 297px;
+    }
+
+    .main-banner-raise {
+        padding: 8.7rem 7rem;
+    }
+
+    .main-banner-raise .banner-logo img {
+        width: 257px;
+    }
+
+    .first-services .round-number {
+        padding: 0.4rem 0.6rem;
+    }
+
+
+    .round-number span {
+        position: absolute;
+        left: -0.rem;
+        right: 0.5rem;
+        bottom: 1rem;
+    }
+
+    .container {
+        height: 1265px;
+    }
+
+    .plan-period {
+        margin: 10rem 38rem 6rem 36.1rem;
+
+    }
+
+    .section-buy-start {
+        font-size: 1.2rem;
+    }
+
+    .first-para {
+        padding: 4rem 8rem 0 10rem;
+    }
+
+    .container .grid-3 {
+        padding: 0 2rem;
+        margin: 7rem 0rem 0 0;
+    }
+
+
+    .first-section .section-3 {
+        margin-bottom: 1.5999999999999996rem;
+    }
+
+    .design-team {
+        margin: 8.5rem 0 3rem 0;
+    }
+
+    .try-free-btn {
+        margin-top: 7rem;
+    }
+
+    .try-first {
+        margin-top: 11.8rem;
+    }
+
+    .contact-us-btn a {
+        margin: 0rem 27rem;
+    }
+
+    .start-up-2 h5 {
+        padding: 3.2rem 3rem;
+    }
+
+    .start-up-1,
+    .start-up-2,
+    .start-up-3 {
+        width: 427px;
+        height: 120px;
+    }
+
+    .start-left-detail {
+
+        & h5 {
+            padding: 3.2rem 2rem;
+        }
+
+    }
+
+    .question-detail p {
+        font-size: 1.5rem;
+        margin-left: 4rem;
+    }
+
+    .fa-sort-down {
+        position: absolute;
+        bottom: 0.5rem;
+        right: 7rem;
+        font-size: 3rem;
+        color: #F86642;
+    }
+
+    .person-3-img img {
+        width: 520px;
+        height: 393px;
+
+    }
+
+    .grid-2 {
+        margin-left: 2.5rem;
+    }
+
+    .get-started-btn a {
+        margin: 0 37.5rem;
+    }
+
+    .person-3-img img {
+        margin: 3rem 18rem 0 23rem;
+    }
+
+    .para-platform p {
+        padding: 2rem 6rem;
+
+    }
+
+    .para-platform p {
+        font-size: 2.2rem;
+
+        &::before {
+            left: 1%;
+        }
+
+        &::after {
+            right: 25%;
+        }
+    }
+
+
+
+    .section-platform .container {
+        height: 2573px;
+    }
+
+    .btn-profile {
+        &.btn a {
+            margin-left: 15rem;
+        }
+    }
+
+    .border-1::after {
+        content: '';
+        position: absolute;
+        top: 2.4rem;
+        left: 4rem;
+        width: 1006px;
+        height: 1.5px;
+    }
+
+    .user-platform-main {
+        margin-top: 1.5rem;
+    }
+
+    .start-up {
+        margin: 10rem 10rem 8rem 6rem;
+    }
+
+    .question-part {
+        margin-left: 4rem;
+    }
+
+
+
+    .left-footer {
+        margin: 16rem 2rem;
+    }
+
+}
+
+/* ======================1200px=================================== */
+
+@media (max-width:1199.98px) {
+
+    html {
+        font-size: 75%;
+    }
+
+    .heading h1 {
+        text-transform: capitalize;
+        font-size: 35px;
+    }
+
+    .people-img img {
+        width: 500px;
+        margin: -4px 314px;
+    }
+
+    .main-banner-raise .banner-logo img {
+        width: 214px;
+    }
+
+    .main-banner-raise {
+        padding: 11.7rem 9drem;
+    }
+
+    .first-para h3 {
+        text-align: center;
+        font-size: 2.2rem;
+        margin: 3rem 0;
+    }
+
+
+    .container {
+        height: 1316px;
+    }
+
+    .heading-platform {
+        padding: 8rem 8rem 8rem 10rem;
+    }
+
+    .heading-platform p {
+        font-size: 2rem;
+    }
+
+    .platform-1 .bgcolor {
+        background-color: #91CFD2;
+        width: 921px;
+        height: 565px
+    }
+
+    .section-platform-2 .bgcolor-1 {
+        width: 427px;
+        height: 249px;
+        margin-left: 1.3000000000000007rem;
+        background-color: #231F20;
+        box-shadow: 5px 5px 25px 15px #B3B3A9;
+        border-radius: 15px;
+    }
+
+    .bgcolor .platform-img img {
+        width: 481px;
+        height: 566px;
+        margin-top: 0.2rem;
+    }
+
+    .seciton-platform-3 img {
+        width: 925px;
+        height: 521px;
+        margin: 4rem 11.1rem;
+    }
+
+    .section-platform-4 img {
+        width: 925px;
+        margin: 0 3.1rem 2.5rem 11.1rem;
+    }
+
+    .para-platform p {
+        padding: 2rem 11rem;
+    }
+
+    .para-platform p {
+
+        &::before {
+            top: 0%;
+            left: 6%;
+        }
+    }
+
+    .para-platform p {
+
+        &::after {
+            right: 19%;
+        }
+    }
+
+    .btn-profile {
+
+        &.btn a {
+            margin-left: 17rem;
+        }
+    }
+
+
+    .section-platform .container {
+        height: 2406px;
+    }
+
+    .section-essential {
+        border: 2px solid #F86642;
+        width: 286px;
+        height: 735px;
+        padding: 4rem 3rem 4rem 3rem;
+        border-radius: 15px;
+    }
+
+    .container-buy-1 .grid-3 {
+        padding: 0 2rem;
+        margin: 3rem 2.5rem 0 3.5rem;
+        gap: 3rem;
+    }
+
+    .design-team {
+        margin: 0.5rem 0 3rem 0;
+    }
+
+    .try-free-btn {
+        margin-top: 5rem;
+    }
+
+    .try-first {
+        margin-top: 10.8rem;
+    }
+
+    .try-third {
+        margin-top: 5.9rem;
+    }
+
+    .plan td {
+        padding: 0.8rem;
+    }
+
+    .try-free-btn a {
+        padding-left: 3.7rem;
+    }
+
+    .buy-price {
+        &::after {
+            top: 6.5rem;
+            left: 0.5rem;
+            right: 1rem;
+            width: 198px;
+        }
+
+    }
+
+    .plan-period {
+        margin: 10rem 42rem 6rem 37.8rem;
+    }
+
+    .contact-us-btn a {
+        margin: 0rem 29.700rem;
+    }
+
+    .grid-2 {
+        margin-left: 5rem;
+    }
+
+    .start-up-1,
+    .start-up-2,
+    .start-up-3 {
+        width: 392px;
+        height: 108px;
+    }
+
+    .border-1::after {
+        left: 5rem;
+        width: 806px;
+        height: 1.5px;
+    }
+
+    .question-detail p {
+        font-size: 1.5rem;
+        margin-left: 5rem;
+    }
+
+    .heading-get {
+        & h4 {
+            padding: 0 5rem;
+        }
+    }
+
+    .get-started-btn a {
+        margin: 0 40rem;
+    }
+
+    .person-3-img img {
+        margin: 3rem 18rem 0 25rem;
+    }
+
+    .fa-sort-down {
+
+        right: 20rem;
+    
+    }
+}
+
+
+
